@@ -9,10 +9,10 @@ const { errorMessage, infoMessage } = require('../helpers');
 const Config = require('../config');
 const Language = require('../language');
 const YTV_DESC = "Youtube Video ."
-const YT_NEED = "Necesito que ingreses algún enlace de mediafire para descargar."
-const DWLOAD_VID = "*Descargando... 😜*"
-const YTV_UP = "*Subiendo... 😜*"
-const NO_RESULT = "*no puedo encontrar nada :(...*"
+const YT_NEED = "NEED A URL."
+const DWLOAD_VID = "*DOWNLOADING... 😜*"
+const YTV_UP = "*UPLOADING... 😜*"
+const NO_RESULT = "*no result found :(...*"
 
 
 if (Config.WORKTYPE == 'private') {
